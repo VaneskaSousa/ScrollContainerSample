@@ -28,6 +28,8 @@ public class ScrollContainerSample extends Container{
 			public void initUI(){
 				setBackColor(0xEEEEEE);
 				try{
+
+					
 					img = new Image("img/ft1.png");
 					ic = new ImageControl(img);
 					ic.scaleToFit = true;
